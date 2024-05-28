@@ -1,0 +1,12 @@
+﻿<Page x:Class="Trivia_Client.StatisticsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="StatisticsPage">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Personal Stats" Width="200" Margin="5" Click="PersonalStatsButton_Click"/>
+            <Button Content="Best Scores" Width="200" Margin="5" Click="BestScoresButton_Click"/>
+            <Button Content="Go Back" Width="200" Margin="5" Click="GoBackButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

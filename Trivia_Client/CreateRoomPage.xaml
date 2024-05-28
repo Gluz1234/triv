@@ -1,0 +1,19 @@
+﻿<Page x:Class="Trivia_Client.CreateRoomPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="CreateRoomPage">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Room Name:" Margin="5"/>
+            <TextBox x:Name="RoomNameTextBox" Width="200" Margin="5"/>
+            <TextBlock Text="Time per Question (seconds):" Margin="5"/>
+            <TextBox x:Name="TimePerQuestionTextBox" Width="200" Margin="5"/>
+            <TextBlock Text="Number of Players:" Margin="5"/>
+            <TextBox x:Name="NumberOfPlayersTextBox" Width="200" Margin="5"/>
+            <Button Content="Create Room" Width="200" Margin="5" Click="CreateRoomButton_Click"/>
+            <Button Content="Go Back" Width="200" Margin="5" Click="GoBackButton_Click"/>
+            <TextBlock x:Name="AdminTextBlock" FontSize="14" FontWeight="Bold" Margin="5"/>
+            <TextBlock x:Name="PlayersTextBlock" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Page>

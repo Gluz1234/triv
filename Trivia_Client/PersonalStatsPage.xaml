@@ -1,0 +1,32 @@
+﻿<Page x:Class="Trivia_Client.PersonalStatsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="PersonalStatsPage">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Personal Statistics" FontSize="16" FontWeight="Bold" Margin="10"/>
+
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Times Played:" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock x:Name="TimesPlayedValue" FontSize="14" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Average Time to Answer a Question:" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock x:Name="AVGTimeValue" FontSize="14" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Total Answers:" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock x:Name="TotalAnswersValue" FontSize="14" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Number of Correct Answers:" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock x:Name="TotalCorrectAnswersValue" FontSize="14" VerticalAlignment="Center" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <Button Content="Go Back" Width="200" Margin="5" Click="GoBackButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>

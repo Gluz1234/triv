@@ -1,0 +1,19 @@
+﻿<Page x:Class="Trivia_Client.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="LoginPage">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Username:" VerticalAlignment="Center" Width="70"/>
+                <TextBox x:Name="UsernameTextBox" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Password:" VerticalAlignment="Center" Width="70"/>
+                <PasswordBox x:Name="PasswordBox" Width="200"/>
+            </StackPanel>
+            <Button Content="Login" Width="100" Margin="5" Click="LoginButton_Click"/>
+            <Button Content="Signup" Width="100" Margin="5" Click="SignupButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
